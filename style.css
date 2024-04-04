@@ -1,0 +1,100 @@
+body {
+    background-color: #EBE3D5;
+    font-family: PT Serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #625E5D;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+h1 {
+    background-color: #BFB29E;
+    border-radius: 4px;
+    font-family: Merriweather;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 1.7;
+}
+
+h2, h3, h4, h5 {
+    background-color: #BFB29E;
+    border-radius: 4px;
+    font-family: "Merriweather", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 1.6;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.card-beige {
+    background-color: #DED0B6;
+    margin: 20px auto;
+    padding: 50px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 3px lightgray;
+    text-align: center;
+}
+
+.bouton-marron {
+    background-color: #8C6A5D;
+    color: #E5C3A6;
+    border-radius: 4px;
+}
+
+.list-horizontal {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-horizontal li {
+    display: inline;
+}
+
+.list-horizontal i {
+    font-size: 55px;
+}
+
+a {
+    color: #4F4A45;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #C8B6A6;
+    text-decoration: underline;
+}
+
+#Emeline {
+    width: 300px;
+    border-radius: 45%;
+}
+
+.img-circle {
+	width: 200px;
+	border-radius: 80%;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 550px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
